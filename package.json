@@ -1,0 +1,22 @@
+{
+  "name": "full_stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "start:backend": "cd ./backend && npm run start:test",
+    "start:frontend": "cd ./frontend && npm run dev",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
